@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "poetry init -name \"project-name\" -description \"description\" -author \"your name <email@example-com>\" -license \"mit\" -python \"^3-9\""
+version = "0.1.0"
+description = "nlp projects"
+authors = ["Klenam"]
+license = "MIT"
+readme = "README.md"
+packages = [{include = "poetry init _name \"project_name\" _description \"description\" _author \"your name <email@example"}]
+
+[tool.poetry.dependencies]
+python = "^3.12"
+tensorflow = "^2.18.0"
+keras = "^3.7.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
